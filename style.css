@@ -1,0 +1,163 @@
+  h3, h4, p
+{
+	text-align: center;
+	font-family:  "Time new roman" serif;
+	
+
+
+}
+h2{
+	color:lightseagreen;
+	text-align: center;
+	font-family:  "Time new roman" serif;
+	font-size: 30px;
+}
+
+/**this sets the how the web behave at certain screem-sizes*/
+@media (min-width : 500px){ 
+	.menu {
+	
+	margin-left: auto;
+	margin-right: auto;
+	width:auto;
+	}
+}
+
+/*
+@media (min-width : 750px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+}
+
+@media (min-width : 1000px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+}
+*/
+.menu {
+	
+	
+	background-image: url(https://media.istockphoto.com/id/1047533606/photo/empty-brown-plank-wood-shelf-at-black-layer-marble-tile-wall-background-mock-up-for-display.jpg?b=1&s=170667a&w=0&k=20&c=svcOWPmb4Cc09LNfF7e5FtJzob2jRd8M4y6A9zVUqdI=);
+	margin-left: auto;
+	margin-right: auto;
+	width:auto;
+}
+body{
+	 background-image: url(https://static.dezeen.com/uploads/2020/02/voisin-organique-restaurant-interiors-china-various-associates_dezeen_hero-2.jpg); 
+	 color: whitesmoke;
+	 
+}
+a {
+	color: lightgreen;
+	text-decoration: none;
+
+}
+
+h1 {
+	font-family:  serif;
+	font-size:50;
+	text-align: center;
+
+}
+.indent {
+	margin-left:40px ;
+}
+.gap_above {
+	margin-top: 40px;
+}
+
+.gap_below {
+	margin-bottom: 25px;
+}
+
+.backg{
+	width:auto;
+	background-image: url(https://www.local-life.com/poznan/place/b.13979-2594_dark_restaurant.jpg) ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+
+}
+
+
+
+
+.established {
+  font-style: italic;
+}
+
+
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+hr {
+  height: 3px;
+  background-color: burlywood;
+  border-color: burlywood;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+a:visited {
+  color: lightgreen;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: white;
+}
+img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
